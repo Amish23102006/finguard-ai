@@ -2,7 +2,7 @@
 
 **Explainable multi-agent financial risk intelligence with digital twins, disagreement scoring and human oversight.**
 
-![python](https://img.shields.io/badge/python-3.11%2B-blue) ![tests](https://img.shields.io/badge/tests-pytest-green) ![data](https://img.shields.io/badge/data-synthetic%20only-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey)
+![python](https://img.shields.io/badge/python-3.11%2B-blue) [![ci](https://github.com/Amish23102006/finguard-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Amish23102006/finguard-ai/actions/workflows/ci.yml) [![security](https://github.com/Amish23102006/finguard-ai/actions/workflows/security.yml/badge.svg)](https://github.com/Amish23102006/finguard-ai/actions/workflows/security.yml) ![data](https://img.shields.io/badge/data-synthetic%20only-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey)
 
 > FinGuard is built on one idea: financial AI should do more than predict. It should
 > expose conflicting evidence, recognise unfamiliar situations, estimate the cost of being
@@ -106,6 +106,6 @@ pytest
 
 ## Author
 
-**Amish Chaturvedi**: *add LinkedIn / portfolio links here*.
+**Amish Chaturvedi**, B.Tech CSE (AI & ML), VIT Bhopal
 
-Topics: `fintech` `machine-learning` `explainable-ai` `multi-agent-systems` `fastapi` `streamlit` `graph-analytics` `mlops` `rag` `risk-management` `responsible-ai` `digital-twin`
+[LinkedIn](https://www.linkedin.com/in/amish-chaturvedi-756606333/) · [GitHub](https://github.com/Amish23102006) · [Email](mailto:chaturvediamish06@gmail.com)
