@@ -1,0 +1,64 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "FinGuard: API (FastAPI + reload)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["finguard.api.main:app", "--reload", "--port", "8000"],
+      "envFile": "${workspaceFolder}/.env",
+      "jinja": true,
+      "justMyCode": true
+    },
+    {
+      "name": "FinGuard: Dashboard (Streamlit)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "src/finguard/dashboard/app.py", "--server.port", "8501"],
+      "envFile": "${workspaceFolder}/.env",
+      "justMyCode": true
+    },
+    {
+      "name": "FinGuard: Train models",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "finguard.models.train",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "FinGuard: Generate demo cases",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "finguard.synthetic.generator",
+      "args": ["--out", "data/sample"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "FinGuard: Assess a case (example script)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/examples/assess_case.py",
+      "args": ["FG-DEMO-0001"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Pytest: current file",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["${file}", "-vv"],
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ],
+  "compounds": [
+    {
+      "name": "FinGuard: API + Dashboard",
+      "configurations": ["FinGuard: API (FastAPI + reload)", "FinGuard: Dashboard (Streamlit)"],
+      "stopAll": true
+    }
+  ]
+}

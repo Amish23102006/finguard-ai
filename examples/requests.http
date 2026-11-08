@@ -1,0 +1,17 @@
+### FinGuard API requests: open in VS Code with the "REST Client" extension and click "Send Request".
+@base = http://localhost:8000
+
+### Health
+GET {{base}}/health
+
+### List demo cases
+GET {{base}}/cases
+
+### Assess the conflicting-evidence case
+POST {{base}}/cases/FG-DEMO-0001/assess
+
+### Assess the unknown-pattern case (expected: abstain)
+POST {{base}}/cases/FG-DEMO-0003/assess
+
+### Active committee policy
+GET {{base}}/policy

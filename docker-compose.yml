@@ -1,0 +1,16 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      FINGUARD_APP_ENV: docker
+      FINGUARD_LOG_JSON: "true"
+  dashboard:
+    build: .
+    command: ["streamlit", "run", "src/finguard/dashboard/app.py", "--server.address", "0.0.0.0", "--server.port", "8501", "--server.headless", "true"]
+    working_dir: /app
+    ports: ["8501:8501"]
+    environment:
+      FINGUARD_APP_ENV: docker
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8501/_stcore/health')"]

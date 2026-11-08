@@ -1,0 +1,39 @@
+{
+  // Python: VS Code auto-detects ./.venv. If not, run "Python: Select Interpreter" -> .venv
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.extraPaths": ["${workspaceFolder}/src"],
+  "python.analysis.typeCheckingMode": "basic",
+  "python.envFile": "${workspaceFolder}/.env",
+
+  // Testing (Testing sidebar / beaker icon)
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["tests"],
+
+  // Formatting + linting with Ruff
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    },
+    "editor.rulers": [100]
+  },
+  "mypy-type-checker.args": ["--config-file=pyproject.toml"],
+  "mypy-type-checker.importStrategy": "fromEnvironment",
+
+  "[yaml]": { "editor.defaultFormatter": "redhat.vscode-yaml" },
+  "yaml.schemas": {},
+
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.ruff_cache": true,
+    "**/*.egg-info": true
+  },
+  "search.exclude": { "**/.venv": true, "artifacts/**": true },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true
+}

@@ -1,0 +1,53 @@
+# FinGuard Risk Committee policy (policy-as-code).
+# Change thresholds here, bump `version`, and record why in docs/decisions/.
+policy_id: finguard-committee
+version: "1.0.0"
+effective_from: "2026-11-01"
+description: >
+  Transparent aggregation for the P0 MVP (credit + fraud + data reliability).
+  The committee never averages away disagreement and abstains when evidence is weak.
+
+weights:            # only scoring agents listed here contribute to overall risk
+  credit_risk: 0.45
+  fraud_detection: 0.55
+
+aggregation:
+  # overall = max(weighted_mean, max_signal_floor * strongest_signal)
+  # so a single strong warning cannot be diluted by a calm second opinion.
+  max_signal_floor: 0.85
+
+risk_bands:         # lower bounds, 0-100
+  medium: 35
+  medium_high: 55
+  high: 75
+
+disagreement:       # max-min spread of scoring agents, 0-100
+  medium: 20
+  high: 40
+
+ood:
+  abstain_above: 0.6
+
+data_reliability:
+  abstain_below: 0.5
+  review_below: 0.85
+  critical_fields: [annual_income, debt_to_income, credit_history_months]
+  income_max_age_days: 365
+  min_history_days: 60
+  income_conflict_ratio: 3.0     # declared vs observed inflow outside [1/r, r] is a conflict
+  penalties:
+    critical_missing: 0.30
+    optional_missing: 0.05
+    stale_income: 0.20
+    short_history: 0.20
+    future_transactions: 0.15
+    duplicate_transactions: 0.10
+    income_conflict: 0.10
+
+confidence:
+  disagreement_penalty: 0.5   # confidence *= 1 - p * disagreement/100
+  ood_penalty: 0.6            # confidence *= 1 - p * max_ood
+
+agent_actions:      # per-agent recommendation thresholds on its own risk score
+  request_more_information: 40
+  human_review: 70

@@ -1,0 +1,4886 @@
+{
+  "case_id": "FG-DEMO-0003",
+  "synthetic": true,
+  "entity_type": "individual_borrower",
+  "entity_label": "Synthetic Borrower",
+  "scenario": "unknown_pattern",
+  "as_of": "2026-10-31T12:00:00Z",
+  "profile": {
+    "annual_income": 64000.0,
+    "income_verified_at": "2026-09-21",
+    "debt_to_income": 3.4,
+    "credit_history_months": 700,
+    "missed_payments_12m": 11,
+    "credit_utilization": 2.5,
+    "employment_years": 48.0,
+    "loan_amount": 600000.0
+  },
+  "transactions": [
+    {
+      "txn_id": "TXN-0003-00000",
+      "timestamp": "2026-04-15T16:00:00Z",
+      "amount": 42.34,
+      "direction": "in",
+      "counterparty_id": "CP-0000",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00001",
+      "timestamp": "2026-04-15T18:00:00Z",
+      "amount": 184.27,
+      "direction": "in",
+      "counterparty_id": "CP-0940",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00002",
+      "timestamp": "2026-04-16T18:00:00Z",
+      "amount": 85.82,
+      "direction": "out",
+      "counterparty_id": "CP-0883",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00003",
+      "timestamp": "2026-04-16T20:00:00Z",
+      "amount": 16.27,
+      "direction": "out",
+      "counterparty_id": "CP-0826",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00004",
+      "timestamp": "2026-04-19T09:00:00Z",
+      "amount": 2000.0,
+      "direction": "in",
+      "counterparty_id": "CP-0769",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00005",
+      "timestamp": "2026-04-19T16:00:00Z",
+      "amount": 53.77,
+      "direction": "in",
+      "counterparty_id": "CP-0712",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00006",
+      "timestamp": "2026-04-20T18:00:00Z",
+      "amount": 42.8,
+      "direction": "in",
+      "counterparty_id": "CP-0655",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00007",
+      "timestamp": "2026-04-21T13:00:00Z",
+      "amount": 32.47,
+      "direction": "in",
+      "counterparty_id": "CP-0598",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00008",
+      "timestamp": "2026-04-22T14:00:00Z",
+      "amount": 43.18,
+      "direction": "out",
+      "counterparty_id": "CP-0541",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00009",
+      "timestamp": "2026-04-22T15:00:00Z",
+      "amount": 28.35,
+      "direction": "out",
+      "counterparty_id": "CP-0484",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00010",
+      "timestamp": "2026-04-27T08:00:00Z",
+      "amount": 34.15,
+      "direction": "out",
+      "counterparty_id": "CP-0427",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00011",
+      "timestamp": "2026-04-27T21:00:00Z",
+      "amount": 49.16,
+      "direction": "out",
+      "counterparty_id": "CP-0370",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00012",
+      "timestamp": "2026-04-28T15:00:00Z",
+      "amount": 23.2,
+      "direction": "in",
+      "counterparty_id": "CP-0313",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00013",
+      "timestamp": "2026-04-30T17:00:00Z",
+      "amount": 46.03,
+      "direction": "out",
+      "counterparty_id": "CP-0256",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00014",
+      "timestamp": "2026-04-30T21:00:00Z",
+      "amount": 45.4,
+      "direction": "out",
+      "counterparty_id": "CP-0199",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00015",
+      "timestamp": "2026-05-02T11:00:00Z",
+      "amount": 15.21,
+      "direction": "out",
+      "counterparty_id": "CP-0142",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00016",
+      "timestamp": "2026-05-02T12:00:00Z",
+      "amount": 81.43,
+      "direction": "out",
+      "counterparty_id": "CP-0085",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00017",
+      "timestamp": "2026-05-02T22:00:00Z",
+      "amount": 218.6,
+      "direction": "out",
+      "counterparty_id": "CP-0028",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00018",
+      "timestamp": "2026-05-03T14:00:00Z",
+      "amount": 27.3,
+      "direction": "out",
+      "counterparty_id": "CP-0968",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00019",
+      "timestamp": "2026-05-05T11:00:00Z",
+      "amount": 64.96,
+      "direction": "out",
+      "counterparty_id": "CP-0911",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00020",
+      "timestamp": "2026-05-05T14:00:00Z",
+      "amount": 121.96,
+      "direction": "out",
+      "counterparty_id": "CP-0854",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00021",
+      "timestamp": "2026-05-06T16:00:00Z",
+      "amount": 45.25,
+      "direction": "in",
+      "counterparty_id": "CP-0797",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00022",
+      "timestamp": "2026-05-07T20:00:00Z",
+      "amount": 91.76,
+      "direction": "in",
+      "counterparty_id": "CP-0740",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00023",
+      "timestamp": "2026-05-07T21:00:00Z",
+      "amount": 174.58,
+      "direction": "out",
+      "counterparty_id": "CP-0683",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00024",
+      "timestamp": "2026-05-08T15:00:00Z",
+      "amount": 86.54,
+      "direction": "out",
+      "counterparty_id": "CP-0626",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00025",
+      "timestamp": "2026-05-10T08:00:00Z",
+      "amount": 26.24,
+      "direction": "out",
+      "counterparty_id": "CP-0569",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00026",
+      "timestamp": "2026-05-11T09:00:00Z",
+      "amount": 26.95,
+      "direction": "in",
+      "counterparty_id": "CP-0512",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00027",
+      "timestamp": "2026-05-11T14:00:00Z",
+      "amount": 65.81,
+      "direction": "out",
+      "counterparty_id": "CP-0455",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00028",
+      "timestamp": "2026-05-14T20:00:00Z",
+      "amount": 71.47,
+      "direction": "out",
+      "counterparty_id": "CP-0398",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00029",
+      "timestamp": "2026-05-16T10:00:00Z",
+      "amount": 52.79,
+      "direction": "in",
+      "counterparty_id": "CP-0341",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00030",
+      "timestamp": "2026-05-16T16:00:00Z",
+      "amount": 44.78,
+      "direction": "out",
+      "counterparty_id": "CP-0284",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00031",
+      "timestamp": "2026-05-19T09:00:00Z",
+      "amount": 2000.0,
+      "direction": "in",
+      "counterparty_id": "CP-0227",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00032",
+      "timestamp": "2026-05-19T11:00:00Z",
+      "amount": 50.29,
+      "direction": "out",
+      "counterparty_id": "CP-0170",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00033",
+      "timestamp": "2026-05-20T09:00:00Z",
+      "amount": 33.1,
+      "direction": "out",
+      "counterparty_id": "CP-0113",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00034",
+      "timestamp": "2026-05-21T08:00:00Z",
+      "amount": 126.35,
+      "direction": "out",
+      "counterparty_id": "CP-0056",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00035",
+      "timestamp": "2026-05-21T21:00:00Z",
+      "amount": 48.64,
+      "direction": "in",
+      "counterparty_id": "CP-0996",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00036",
+      "timestamp": "2026-05-22T20:00:00Z",
+      "amount": 104.05,
+      "direction": "out",
+      "counterparty_id": "CP-0939",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00037",
+      "timestamp": "2026-05-22T20:00:00Z",
+      "amount": 13.79,
+      "direction": "out",
+      "counterparty_id": "CP-0882",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00038",
+      "timestamp": "2026-05-22T21:00:00Z",
+      "amount": 16.44,
+      "direction": "out",
+      "counterparty_id": "CP-0825",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00039",
+      "timestamp": "2026-05-24T07:00:00Z",
+      "amount": 60.43,
+      "direction": "out",
+      "counterparty_id": "CP-0768",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00040",
+      "timestamp": "2026-05-24T17:00:00Z",
+      "amount": 21.4,
+      "direction": "out",
+      "counterparty_id": "CP-0711",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00041",
+      "timestamp": "2026-05-25T19:00:00Z",
+      "amount": 35.27,
+      "direction": "in",
+      "counterparty_id": "CP-0654",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00042",
+      "timestamp": "2026-05-26T15:00:00Z",
+      "amount": 136.01,
+      "direction": "out",
+      "counterparty_id": "CP-0597",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00043",
+      "timestamp": "2026-05-26T21:00:00Z",
+      "amount": 45.88,
+      "direction": "out",
+      "counterparty_id": "CP-0540",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00044",
+      "timestamp": "2026-05-27T20:00:00Z",
+      "amount": 40.27,
+      "direction": "out",
+      "counterparty_id": "CP-0483",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00045",
+      "timestamp": "2026-05-27T21:00:00Z",
+      "amount": 71.08,
+      "direction": "out",
+      "counterparty_id": "CP-0426",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00046",
+      "timestamp": "2026-05-27T22:00:00Z",
+      "amount": 37.46,
+      "direction": "out",
+      "counterparty_id": "CP-0369",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00047",
+      "timestamp": "2026-05-28T09:00:00Z",
+      "amount": 132.37,
+      "direction": "out",
+      "counterparty_id": "CP-0312",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00048",
+      "timestamp": "2026-05-29T07:00:00Z",
+      "amount": 72.39,
+      "direction": "out",
+      "counterparty_id": "CP-0255",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00049",
+      "timestamp": "2026-05-29T09:00:00Z",
+      "amount": 34.64,
+      "direction": "out",
+      "counterparty_id": "CP-0198",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00050",
+      "timestamp": "2026-05-29T17:00:00Z",
+      "amount": 63.22,
+      "direction": "out",
+      "counterparty_id": "CP-0141",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00051",
+      "timestamp": "2026-05-29T21:00:00Z",
+      "amount": 72.47,
+      "direction": "out",
+      "counterparty_id": "CP-0084",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00052",
+      "timestamp": "2026-05-30T15:00:00Z",
+      "amount": 60.42,
+      "direction": "in",
+      "counterparty_id": "CP-0027",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00053",
+      "timestamp": "2026-05-30T18:00:00Z",
+      "amount": 49.33,
+      "direction": "out",
+      "counterparty_id": "CP-0967",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00054",
+      "timestamp": "2026-06-01T14:00:00Z",
+      "amount": 52.49,
+      "direction": "out",
+      "counterparty_id": "CP-0910",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00055",
+      "timestamp": "2026-06-02T17:00:00Z",
+      "amount": 108.52,
+      "direction": "out",
+      "counterparty_id": "CP-0853",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00056",
+      "timestamp": "2026-06-02T21:00:00Z",
+      "amount": 46.8,
+      "direction": "in",
+      "counterparty_id": "CP-0796",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00057",
+      "timestamp": "2026-06-03T12:00:00Z",
+      "amount": 43.37,
+      "direction": "out",
+      "counterparty_id": "CP-0739",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00058",
+      "timestamp": "2026-06-05T12:00:00Z",
+      "amount": 158.74,
+      "direction": "out",
+      "counterparty_id": "CP-0682",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00059",
+      "timestamp": "2026-06-05T17:00:00Z",
+      "amount": 81.06,
+      "direction": "out",
+      "counterparty_id": "CP-0625",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00060",
+      "timestamp": "2026-06-08T16:00:00Z",
+      "amount": 43.34,
+      "direction": "in",
+      "counterparty_id": "CP-0568",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00061",
+      "timestamp": "2026-06-09T10:00:00Z",
+      "amount": 36.91,
+      "direction": "out",
+      "counterparty_id": "CP-0511",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00062",
+      "timestamp": "2026-06-09T20:00:00Z",
+      "amount": 93.6,
+      "direction": "out",
+      "counterparty_id": "CP-0454",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00063",
+      "timestamp": "2026-06-12T07:00:00Z",
+      "amount": 52.92,
+      "direction": "out",
+      "counterparty_id": "CP-0397",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00064",
+      "timestamp": "2026-06-12T09:00:00Z",
+      "amount": 56.03,
+      "direction": "in",
+      "counterparty_id": "CP-0340",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00065",
+      "timestamp": "2026-06-12T20:00:00Z",
+      "amount": 77.3,
+      "direction": "out",
+      "counterparty_id": "CP-0283",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00066",
+      "timestamp": "2026-06-13T08:00:00Z",
+      "amount": 66.16,
+      "direction": "out",
+      "counterparty_id": "CP-0226",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00067",
+      "timestamp": "2026-06-13T08:00:00Z",
+      "amount": 59.29,
+      "direction": "out",
+      "counterparty_id": "CP-0169",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00068",
+      "timestamp": "2026-06-13T08:00:00Z",
+      "amount": 101.87,
+      "direction": "out",
+      "counterparty_id": "CP-0112",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00069",
+      "timestamp": "2026-06-14T07:00:00Z",
+      "amount": 30.69,
+      "direction": "in",
+      "counterparty_id": "CP-0055",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00070",
+      "timestamp": "2026-06-15T14:00:00Z",
+      "amount": 38.1,
+      "direction": "out",
+      "counterparty_id": "CP-0995",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00071",
+      "timestamp": "2026-06-15T17:00:00Z",
+      "amount": 86.44,
+      "direction": "in",
+      "counterparty_id": "CP-0938",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00072",
+      "timestamp": "2026-06-16T08:00:00Z",
+      "amount": 84.84,
+      "direction": "out",
+      "counterparty_id": "CP-0881",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00073",
+      "timestamp": "2026-06-18T09:00:00Z",
+      "amount": 2000.0,
+      "direction": "in",
+      "counterparty_id": "CP-0824",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00074",
+      "timestamp": "2026-06-18T13:00:00Z",
+      "amount": 31.09,
+      "direction": "out",
+      "counterparty_id": "CP-0767",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00075",
+      "timestamp": "2026-06-19T10:00:00Z",
+      "amount": 36.02,
+      "direction": "out",
+      "counterparty_id": "CP-0710",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00076",
+      "timestamp": "2026-06-19T17:00:00Z",
+      "amount": 31.72,
+      "direction": "out",
+      "counterparty_id": "CP-0653",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00077",
+      "timestamp": "2026-06-26T14:00:00Z",
+      "amount": 11.49,
+      "direction": "out",
+      "counterparty_id": "CP-0596",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00078",
+      "timestamp": "2026-06-27T13:00:00Z",
+      "amount": 8.89,
+      "direction": "in",
+      "counterparty_id": "CP-0539",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00079",
+      "timestamp": "2026-06-28T15:00:00Z",
+      "amount": 119.02,
+      "direction": "in",
+      "counterparty_id": "CP-0482",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00080",
+      "timestamp": "2026-06-28T16:00:00Z",
+      "amount": 26.87,
+      "direction": "out",
+      "counterparty_id": "CP-0425",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00081",
+      "timestamp": "2026-06-28T22:00:00Z",
+      "amount": 26.1,
+      "direction": "out",
+      "counterparty_id": "CP-0368",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00082",
+      "timestamp": "2026-06-29T08:00:00Z",
+      "amount": 65.53,
+      "direction": "out",
+      "counterparty_id": "CP-0311",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00083",
+      "timestamp": "2026-06-29T12:00:00Z",
+      "amount": 71.45,
+      "direction": "out",
+      "counterparty_id": "CP-0254",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00084",
+      "timestamp": "2026-06-30T18:00:00Z",
+      "amount": 213.39,
+      "direction": "out",
+      "counterparty_id": "CP-0197",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00085",
+      "timestamp": "2026-07-01T13:00:00Z",
+      "amount": 9.15,
+      "direction": "out",
+      "counterparty_id": "CP-0140",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00086",
+      "timestamp": "2026-07-01T15:00:00Z",
+      "amount": 77.02,
+      "direction": "out",
+      "counterparty_id": "CP-0083",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00087",
+      "timestamp": "2026-07-01T16:00:00Z",
+      "amount": 61.01,
+      "direction": "out",
+      "counterparty_id": "CP-0026",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00088",
+      "timestamp": "2026-07-01T17:00:00Z",
+      "amount": 28.53,
+      "direction": "out",
+      "counterparty_id": "CP-0966",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00089",
+      "timestamp": "2026-07-02T17:00:00Z",
+      "amount": 50.88,
+      "direction": "in",
+      "counterparty_id": "CP-0909",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00090",
+      "timestamp": "2026-07-05T09:00:00Z",
+      "amount": 26.0,
+      "direction": "in",
+      "counterparty_id": "CP-0852",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00091",
+      "timestamp": "2026-07-05T16:00:00Z",
+      "amount": 58.46,
+      "direction": "out",
+      "counterparty_id": "CP-0795",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00092",
+      "timestamp": "2026-07-06T12:00:00Z",
+      "amount": 55.47,
+      "direction": "out",
+      "counterparty_id": "CP-0738",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00093",
+      "timestamp": "2026-07-09T17:00:00Z",
+      "amount": 46.83,
+      "direction": "out",
+      "counterparty_id": "CP-0681",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00094",
+      "timestamp": "2026-07-10T21:00:00Z",
+      "amount": 67.25,
+      "direction": "out",
+      "counterparty_id": "CP-0624",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00095",
+      "timestamp": "2026-07-17T13:00:00Z",
+      "amount": 31.86,
+      "direction": "in",
+      "counterparty_id": "CP-0567",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00096",
+      "timestamp": "2026-07-18T09:00:00Z",
+      "amount": 2000.0,
+      "direction": "in",
+      "counterparty_id": "CP-0510",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00097",
+      "timestamp": "2026-07-18T14:00:00Z",
+      "amount": 37.04,
+      "direction": "out",
+      "counterparty_id": "CP-0453",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00098",
+      "timestamp": "2026-07-19T11:00:00Z",
+      "amount": 38.2,
+      "direction": "out",
+      "counterparty_id": "CP-0396",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00099",
+      "timestamp": "2026-07-20T09:00:00Z",
+      "amount": 118.32,
+      "direction": "in",
+      "counterparty_id": "CP-0339",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00100",
+      "timestamp": "2026-07-21T07:00:00Z",
+      "amount": 26.23,
+      "direction": "in",
+      "counterparty_id": "CP-0282",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00101",
+      "timestamp": "2026-07-21T07:00:00Z",
+      "amount": 80.32,
+      "direction": "in",
+      "counterparty_id": "CP-0225",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00102",
+      "timestamp": "2026-07-21T12:00:00Z",
+      "amount": 24.15,
+      "direction": "out",
+      "counterparty_id": "CP-0168",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00103",
+      "timestamp": "2026-07-22T07:00:00Z",
+      "amount": 23.56,
+      "direction": "in",
+      "counterparty_id": "CP-0111",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00104",
+      "timestamp": "2026-07-22T13:00:00Z",
+      "amount": 59.37,
+      "direction": "in",
+      "counterparty_id": "CP-0054",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00105",
+      "timestamp": "2026-07-22T18:00:00Z",
+      "amount": 21.34,
+      "direction": "out",
+      "counterparty_id": "CP-0994",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00106",
+      "timestamp": "2026-07-23T20:00:00Z",
+      "amount": 49.19,
+      "direction": "out",
+      "counterparty_id": "CP-0937",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00107",
+      "timestamp": "2026-07-24T10:00:00Z",
+      "amount": 27.56,
+      "direction": "out",
+      "counterparty_id": "CP-0880",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00108",
+      "timestamp": "2026-07-24T20:00:00Z",
+      "amount": 76.64,
+      "direction": "out",
+      "counterparty_id": "CP-0823",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00109",
+      "timestamp": "2026-07-24T21:00:00Z",
+      "amount": 65.17,
+      "direction": "in",
+      "counterparty_id": "CP-0766",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00110",
+      "timestamp": "2026-07-24T21:00:00Z",
+      "amount": 208.72,
+      "direction": "out",
+      "counterparty_id": "CP-0709",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00111",
+      "timestamp": "2026-07-25T15:00:00Z",
+      "amount": 53.94,
+      "direction": "out",
+      "counterparty_id": "CP-0652",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00112",
+      "timestamp": "2026-07-26T20:00:00Z",
+      "amount": 107.62,
+      "direction": "in",
+      "counterparty_id": "CP-0595",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00113",
+      "timestamp": "2026-07-28T08:00:00Z",
+      "amount": 49.19,
+      "direction": "in",
+      "counterparty_id": "CP-0538",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00114",
+      "timestamp": "2026-07-29T09:00:00Z",
+      "amount": 30.26,
+      "direction": "out",
+      "counterparty_id": "CP-0481",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00115",
+      "timestamp": "2026-07-30T14:00:00Z",
+      "amount": 29.27,
+      "direction": "in",
+      "counterparty_id": "CP-0424",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00116",
+      "timestamp": "2026-07-31T12:00:00Z",
+      "amount": 14.83,
+      "direction": "in",
+      "counterparty_id": "CP-0367",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00117",
+      "timestamp": "2026-08-02T15:00:00Z",
+      "amount": 43.56,
+      "direction": "out",
+      "counterparty_id": "CP-0310",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00118",
+      "timestamp": "2026-08-03T13:00:00Z",
+      "amount": 50.89,
+      "direction": "out",
+      "counterparty_id": "CP-0253",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00119",
+      "timestamp": "2026-08-03T13:00:00Z",
+      "amount": 59.15,
+      "direction": "in",
+      "counterparty_id": "CP-0196",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00120",
+      "timestamp": "2026-08-03T22:00:00Z",
+      "amount": 63.21,
+      "direction": "in",
+      "counterparty_id": "CP-0139",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00121",
+      "timestamp": "2026-08-04T19:00:00Z",
+      "amount": 24.22,
+      "direction": "out",
+      "counterparty_id": "CP-0082",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00122",
+      "timestamp": "2026-08-05T08:00:00Z",
+      "amount": 32.45,
+      "direction": "out",
+      "counterparty_id": "CP-0025",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00123",
+      "timestamp": "2026-08-05T22:00:00Z",
+      "amount": 52.89,
+      "direction": "out",
+      "counterparty_id": "CP-0965",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00124",
+      "timestamp": "2026-08-07T15:00:00Z",
+      "amount": 57.42,
+      "direction": "out",
+      "counterparty_id": "CP-0908",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00125",
+      "timestamp": "2026-08-09T07:00:00Z",
+      "amount": 163.38,
+      "direction": "out",
+      "counterparty_id": "CP-0851",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00126",
+      "timestamp": "2026-08-09T09:00:00Z",
+      "amount": 54.03,
+      "direction": "out",
+      "counterparty_id": "CP-0794",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00127",
+      "timestamp": "2026-08-09T13:00:00Z",
+      "amount": 22.16,
+      "direction": "in",
+      "counterparty_id": "CP-0737",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00128",
+      "timestamp": "2026-08-09T19:00:00Z",
+      "amount": 81.72,
+      "direction": "out",
+      "counterparty_id": "CP-0680",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00129",
+      "timestamp": "2026-08-10T08:00:00Z",
+      "amount": 48.09,
+      "direction": "out",
+      "counterparty_id": "CP-0623",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00130",
+      "timestamp": "2026-08-11T14:00:00Z",
+      "amount": 51.95,
+      "direction": "out",
+      "counterparty_id": "CP-0566",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00131",
+      "timestamp": "2026-08-11T22:00:00Z",
+      "amount": 62.19,
+      "direction": "out",
+      "counterparty_id": "CP-0509",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00132",
+      "timestamp": "2026-08-13T08:00:00Z",
+      "amount": 33.14,
+      "direction": "out",
+      "counterparty_id": "CP-0452",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00133",
+      "timestamp": "2026-08-14T12:00:00Z",
+      "amount": 55.35,
+      "direction": "out",
+      "counterparty_id": "CP-0395",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00134",
+      "timestamp": "2026-08-14T20:00:00Z",
+      "amount": 88.22,
+      "direction": "in",
+      "counterparty_id": "CP-0338",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00135",
+      "timestamp": "2026-08-16T14:00:00Z",
+      "amount": 102.72,
+      "direction": "out",
+      "counterparty_id": "CP-0281",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00136",
+      "timestamp": "2026-08-17T09:00:00Z",
+      "amount": 2000.0,
+      "direction": "in",
+      "counterparty_id": "CP-0224",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00137",
+      "timestamp": "2026-08-18T10:00:00Z",
+      "amount": 119.52,
+      "direction": "out",
+      "counterparty_id": "CP-0167",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00138",
+      "timestamp": "2026-08-18T15:00:00Z",
+      "amount": 30.83,
+      "direction": "out",
+      "counterparty_id": "CP-0110",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00139",
+      "timestamp": "2026-08-18T20:00:00Z",
+      "amount": 38.31,
+      "direction": "out",
+      "counterparty_id": "CP-0053",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00140",
+      "timestamp": "2026-08-19T11:00:00Z",
+      "amount": 70.66,
+      "direction": "out",
+      "counterparty_id": "CP-0993",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00141",
+      "timestamp": "2026-08-20T15:00:00Z",
+      "amount": 75.52,
+      "direction": "in",
+      "counterparty_id": "CP-0936",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00142",
+      "timestamp": "2026-08-21T16:00:00Z",
+      "amount": 113.71,
+      "direction": "out",
+      "counterparty_id": "CP-0879",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00143",
+      "timestamp": "2026-08-23T11:00:00Z",
+      "amount": 40.08,
+      "direction": "out",
+      "counterparty_id": "CP-0822",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00144",
+      "timestamp": "2026-08-23T21:00:00Z",
+      "amount": 172.33,
+      "direction": "in",
+      "counterparty_id": "CP-0765",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00145",
+      "timestamp": "2026-08-24T13:00:00Z",
+      "amount": 61.55,
+      "direction": "in",
+      "counterparty_id": "CP-0708",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00146",
+      "timestamp": "2026-08-29T11:00:00Z",
+      "amount": 19.28,
+      "direction": "in",
+      "counterparty_id": "CP-0651",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00147",
+      "timestamp": "2026-08-29T13:00:00Z",
+      "amount": 80.26,
+      "direction": "out",
+      "counterparty_id": "CP-0594",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00148",
+      "timestamp": "2026-08-29T18:00:00Z",
+      "amount": 61.15,
+      "direction": "out",
+      "counterparty_id": "CP-0537",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00149",
+      "timestamp": "2026-08-29T19:00:00Z",
+      "amount": 60.67,
+      "direction": "out",
+      "counterparty_id": "CP-0480",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00150",
+      "timestamp": "2026-08-30T07:00:00Z",
+      "amount": 25.45,
+      "direction": "out",
+      "counterparty_id": "CP-0423",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00151",
+      "timestamp": "2026-08-31T10:00:00Z",
+      "amount": 40.96,
+      "direction": "out",
+      "counterparty_id": "CP-0366",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00152",
+      "timestamp": "2026-09-02T14:00:00Z",
+      "amount": 84.76,
+      "direction": "out",
+      "counterparty_id": "CP-0309",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00153",
+      "timestamp": "2026-09-02T21:00:00Z",
+      "amount": 98.76,
+      "direction": "out",
+      "counterparty_id": "CP-0252",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00154",
+      "timestamp": "2026-09-03T08:00:00Z",
+      "amount": 83.38,
+      "direction": "out",
+      "counterparty_id": "CP-0195",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00155",
+      "timestamp": "2026-09-04T09:00:00Z",
+      "amount": 48.6,
+      "direction": "out",
+      "counterparty_id": "CP-0138",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00156",
+      "timestamp": "2026-09-04T13:00:00Z",
+      "amount": 59.35,
+      "direction": "out",
+      "counterparty_id": "CP-0081",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00157",
+      "timestamp": "2026-09-12T10:00:00Z",
+      "amount": 32.19,
+      "direction": "out",
+      "counterparty_id": "CP-0024",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00158",
+      "timestamp": "2026-09-12T11:00:00Z",
+      "amount": 58.8,
+      "direction": "out",
+      "counterparty_id": "CP-0964",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00159",
+      "timestamp": "2026-09-14T07:00:00Z",
+      "amount": 63.39,
+      "direction": "out",
+      "counterparty_id": "CP-0907",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00160",
+      "timestamp": "2026-09-15T17:00:00Z",
+      "amount": 23.25,
+      "direction": "in",
+      "counterparty_id": "CP-0850",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00161",
+      "timestamp": "2026-09-16T09:00:00Z",
+      "amount": 2000.0,
+      "direction": "in",
+      "counterparty_id": "CP-0793",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00162",
+      "timestamp": "2026-09-16T09:00:00Z",
+      "amount": 62.59,
+      "direction": "out",
+      "counterparty_id": "CP-0736",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00163",
+      "timestamp": "2026-09-16T13:00:00Z",
+      "amount": 74.85,
+      "direction": "out",
+      "counterparty_id": "CP-0679",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00164",
+      "timestamp": "2026-09-17T13:00:00Z",
+      "amount": 17.41,
+      "direction": "out",
+      "counterparty_id": "CP-0622",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00165",
+      "timestamp": "2026-09-18T21:00:00Z",
+      "amount": 27.33,
+      "direction": "out",
+      "counterparty_id": "CP-0565",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00166",
+      "timestamp": "2026-09-19T10:00:00Z",
+      "amount": 40.12,
+      "direction": "out",
+      "counterparty_id": "CP-0508",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00167",
+      "timestamp": "2026-09-19T22:00:00Z",
+      "amount": 25.9,
+      "direction": "out",
+      "counterparty_id": "CP-0451",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00168",
+      "timestamp": "2026-09-20T17:00:00Z",
+      "amount": 40.58,
+      "direction": "out",
+      "counterparty_id": "CP-0394",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00169",
+      "timestamp": "2026-09-21T07:00:00Z",
+      "amount": 71.04,
+      "direction": "out",
+      "counterparty_id": "CP-0337",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00170",
+      "timestamp": "2026-09-21T13:00:00Z",
+      "amount": 42.08,
+      "direction": "out",
+      "counterparty_id": "CP-0280",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00171",
+      "timestamp": "2026-09-21T13:00:00Z",
+      "amount": 49.49,
+      "direction": "in",
+      "counterparty_id": "CP-0223",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00172",
+      "timestamp": "2026-09-22T08:00:00Z",
+      "amount": 38.13,
+      "direction": "out",
+      "counterparty_id": "CP-0166",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00173",
+      "timestamp": "2026-09-22T15:00:00Z",
+      "amount": 111.96,
+      "direction": "out",
+      "counterparty_id": "CP-0109",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00174",
+      "timestamp": "2026-09-23T12:00:00Z",
+      "amount": 42.78,
+      "direction": "in",
+      "counterparty_id": "CP-0052",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00175",
+      "timestamp": "2026-09-24T15:00:00Z",
+      "amount": 50.35,
+      "direction": "out",
+      "counterparty_id": "CP-0992",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00176",
+      "timestamp": "2026-09-25T10:00:00Z",
+      "amount": 42.86,
+      "direction": "out",
+      "counterparty_id": "CP-0935",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00177",
+      "timestamp": "2026-09-27T10:00:00Z",
+      "amount": 36.79,
+      "direction": "out",
+      "counterparty_id": "CP-0878",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00178",
+      "timestamp": "2026-09-27T22:00:00Z",
+      "amount": 42.54,
+      "direction": "out",
+      "counterparty_id": "CP-0821",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00179",
+      "timestamp": "2026-09-30T07:00:00Z",
+      "amount": 249.02,
+      "direction": "out",
+      "counterparty_id": "CP-0764",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00180",
+      "timestamp": "2026-10-01T19:00:00Z",
+      "amount": 40.44,
+      "direction": "in",
+      "counterparty_id": "CP-0707",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00181",
+      "timestamp": "2026-10-02T11:00:00Z",
+      "amount": 35.61,
+      "direction": "in",
+      "counterparty_id": "CP-0650",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00182",
+      "timestamp": "2026-10-03T07:00:00Z",
+      "amount": 37.41,
+      "direction": "out",
+      "counterparty_id": "CP-0593",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00183",
+      "timestamp": "2026-10-03T12:00:00Z",
+      "amount": 44.93,
+      "direction": "out",
+      "counterparty_id": "CP-0536",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00184",
+      "timestamp": "2026-10-03T17:00:00Z",
+      "amount": 26.94,
+      "direction": "out",
+      "counterparty_id": "CP-0479",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00185",
+      "timestamp": "2026-10-04T17:00:00Z",
+      "amount": 35.82,
+      "direction": "in",
+      "counterparty_id": "CP-0422",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00186",
+      "timestamp": "2026-10-06T09:00:00Z",
+      "amount": 43.3,
+      "direction": "out",
+      "counterparty_id": "CP-0365",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00187",
+      "timestamp": "2026-10-07T08:00:00Z",
+      "amount": 46.09,
+      "direction": "out",
+      "counterparty_id": "CP-0308",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00188",
+      "timestamp": "2026-10-07T10:00:00Z",
+      "amount": 20.05,
+      "direction": "out",
+      "counterparty_id": "CP-0251",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00189",
+      "timestamp": "2026-10-08T13:00:00Z",
+      "amount": 53.2,
+      "direction": "out",
+      "counterparty_id": "CP-0194",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00190",
+      "timestamp": "2026-10-08T14:00:00Z",
+      "amount": 97.85,
+      "direction": "out",
+      "counterparty_id": "CP-0137",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00191",
+      "timestamp": "2026-10-09T10:00:00Z",
+      "amount": 54.97,
+      "direction": "out",
+      "counterparty_id": "CP-0080",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00192",
+      "timestamp": "2026-10-10T09:00:00Z",
+      "amount": 98.18,
+      "direction": "out",
+      "counterparty_id": "CP-0023",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00193",
+      "timestamp": "2026-10-10T13:00:00Z",
+      "amount": 81.5,
+      "direction": "out",
+      "counterparty_id": "CP-0963",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00194",
+      "timestamp": "2026-10-12T08:00:00Z",
+      "amount": 143.05,
+      "direction": "out",
+      "counterparty_id": "CP-0906",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00195",
+      "timestamp": "2026-10-13T15:00:00Z",
+      "amount": 17.86,
+      "direction": "in",
+      "counterparty_id": "CP-0849",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00196",
+      "timestamp": "2026-10-14T15:00:00Z",
+      "amount": 26.21,
+      "direction": "out",
+      "counterparty_id": "CP-0792",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00197",
+      "timestamp": "2026-10-14T18:00:00Z",
+      "amount": 49.09,
+      "direction": "in",
+      "counterparty_id": "CP-0735",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00198",
+      "timestamp": "2026-10-15T08:00:00Z",
+      "amount": 31.03,
+      "direction": "in",
+      "counterparty_id": "CP-0678",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00199",
+      "timestamp": "2026-10-16T09:00:00Z",
+      "amount": 2000.0,
+      "direction": "in",
+      "counterparty_id": "CP-0621",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00200",
+      "timestamp": "2026-10-16T15:00:00Z",
+      "amount": 17.4,
+      "direction": "in",
+      "counterparty_id": "CP-0564",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00201",
+      "timestamp": "2026-10-16T17:00:00Z",
+      "amount": 35.51,
+      "direction": "in",
+      "counterparty_id": "CP-0507",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00202",
+      "timestamp": "2026-10-21T11:00:00Z",
+      "amount": 54.79,
+      "direction": "out",
+      "counterparty_id": "CP-0450",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00203",
+      "timestamp": "2026-10-22T12:00:00Z",
+      "amount": 72.4,
+      "direction": "out",
+      "counterparty_id": "CP-0393",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00204",
+      "timestamp": "2026-10-23T22:00:00Z",
+      "amount": 31.51,
+      "direction": "in",
+      "counterparty_id": "CP-0336",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00205",
+      "timestamp": "2026-10-24T18:00:00Z",
+      "amount": 48.18,
+      "direction": "out",
+      "counterparty_id": "CP-0279",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00206",
+      "timestamp": "2026-10-25T00:00:00Z",
+      "amount": 2062.96,
+      "direction": "out",
+      "counterparty_id": "CP-0222",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00207",
+      "timestamp": "2026-10-25T00:00:00Z",
+      "amount": 1737.85,
+      "direction": "out",
+      "counterparty_id": "CP-0165",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00208",
+      "timestamp": "2026-10-25T00:00:00Z",
+      "amount": 1417.87,
+      "direction": "out",
+      "counterparty_id": "CP-0108",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00209",
+      "timestamp": "2026-10-25T00:00:00Z",
+      "amount": 3472.77,
+      "direction": "out",
+      "counterparty_id": "CP-0051",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00210",
+      "timestamp": "2026-10-25T01:00:00Z",
+      "amount": 2082.63,
+      "direction": "out",
+      "counterparty_id": "CP-0991",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00211",
+      "timestamp": "2026-10-25T01:00:00Z",
+      "amount": 2438.7,
+      "direction": "out",
+      "counterparty_id": "CP-0934",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00212",
+      "timestamp": "2026-10-25T01:00:00Z",
+      "amount": 1405.84,
+      "direction": "out",
+      "counterparty_id": "CP-0877",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00213",
+      "timestamp": "2026-10-25T01:00:00Z",
+      "amount": 3724.34,
+      "direction": "out",
+      "counterparty_id": "CP-0820",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00214",
+      "timestamp": "2026-10-25T02:00:00Z",
+      "amount": 2103.89,
+      "direction": "out",
+      "counterparty_id": "CP-0763",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00215",
+      "timestamp": "2026-10-25T02:00:00Z",
+      "amount": 2696.36,
+      "direction": "out",
+      "counterparty_id": "CP-0706",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00216",
+      "timestamp": "2026-10-25T02:00:00Z",
+      "amount": 4965.03,
+      "direction": "out",
+      "counterparty_id": "CP-0649",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00217",
+      "timestamp": "2026-10-25T02:00:00Z",
+      "amount": 2586.04,
+      "direction": "out",
+      "counterparty_id": "CP-0592",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00218",
+      "timestamp": "2026-10-25T02:00:00Z",
+      "amount": 1443.59,
+      "direction": "out",
+      "counterparty_id": "CP-0535",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00219",
+      "timestamp": "2026-10-25T02:00:00Z",
+      "amount": 1746.97,
+      "direction": "out",
+      "counterparty_id": "CP-0478",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00220",
+      "timestamp": "2026-10-25T02:00:00Z",
+      "amount": 1571.77,
+      "direction": "out",
+      "counterparty_id": "CP-0421",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00221",
+      "timestamp": "2026-10-25T02:00:00Z",
+      "amount": 3493.31,
+      "direction": "out",
+      "counterparty_id": "CP-0364",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-011"
+    },
+    {
+      "txn_id": "TXN-0003-00222",
+      "timestamp": "2026-10-25T02:00:00Z",
+      "amount": 1172.05,
+      "direction": "out",
+      "counterparty_id": "CP-0307",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00223",
+      "timestamp": "2026-10-25T02:00:00Z",
+      "amount": 1936.98,
+      "direction": "out",
+      "counterparty_id": "CP-0250",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00224",
+      "timestamp": "2026-10-25T03:00:00Z",
+      "amount": 3178.95,
+      "direction": "out",
+      "counterparty_id": "CP-0193",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00225",
+      "timestamp": "2026-10-25T03:00:00Z",
+      "amount": 2953.19,
+      "direction": "out",
+      "counterparty_id": "CP-0136",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00226",
+      "timestamp": "2026-10-25T03:00:00Z",
+      "amount": 2073.28,
+      "direction": "out",
+      "counterparty_id": "CP-0079",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00227",
+      "timestamp": "2026-10-25T03:00:00Z",
+      "amount": 2004.99,
+      "direction": "out",
+      "counterparty_id": "CP-0022",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00228",
+      "timestamp": "2026-10-25T03:00:00Z",
+      "amount": 541.64,
+      "direction": "out",
+      "counterparty_id": "CP-0962",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00229",
+      "timestamp": "2026-10-25T03:00:00Z",
+      "amount": 1661.27,
+      "direction": "out",
+      "counterparty_id": "CP-0905",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00230",
+      "timestamp": "2026-10-25T04:00:00Z",
+      "amount": 5224.67,
+      "direction": "out",
+      "counterparty_id": "CP-0848",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00231",
+      "timestamp": "2026-10-25T04:00:00Z",
+      "amount": 1406.5,
+      "direction": "out",
+      "counterparty_id": "CP-0791",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00232",
+      "timestamp": "2026-10-25T04:00:00Z",
+      "amount": 1885.23,
+      "direction": "out",
+      "counterparty_id": "CP-0734",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00233",
+      "timestamp": "2026-10-25T04:00:00Z",
+      "amount": 1730.53,
+      "direction": "out",
+      "counterparty_id": "CP-0677",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00234",
+      "timestamp": "2026-10-26T00:00:00Z",
+      "amount": 1184.42,
+      "direction": "out",
+      "counterparty_id": "CP-0620",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00235",
+      "timestamp": "2026-10-26T00:00:00Z",
+      "amount": 2210.81,
+      "direction": "out",
+      "counterparty_id": "CP-0563",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00236",
+      "timestamp": "2026-10-26T00:00:00Z",
+      "amount": 1046.09,
+      "direction": "out",
+      "counterparty_id": "CP-0506",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00237",
+      "timestamp": "2026-10-26T00:00:00Z",
+      "amount": 1093.02,
+      "direction": "out",
+      "counterparty_id": "CP-0449",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00238",
+      "timestamp": "2026-10-26T00:00:00Z",
+      "amount": 1549.08,
+      "direction": "out",
+      "counterparty_id": "CP-0392",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00239",
+      "timestamp": "2026-10-26T00:00:00Z",
+      "amount": 3229.6,
+      "direction": "out",
+      "counterparty_id": "CP-0335",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00240",
+      "timestamp": "2026-10-26T00:00:00Z",
+      "amount": 5800.69,
+      "direction": "out",
+      "counterparty_id": "CP-0278",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00241",
+      "timestamp": "2026-10-26T00:00:00Z",
+      "amount": 2326.48,
+      "direction": "out",
+      "counterparty_id": "CP-0221",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00242",
+      "timestamp": "2026-10-26T01:00:00Z",
+      "amount": 2598.27,
+      "direction": "out",
+      "counterparty_id": "CP-0164",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00243",
+      "timestamp": "2026-10-26T01:00:00Z",
+      "amount": 1193.49,
+      "direction": "out",
+      "counterparty_id": "CP-0107",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00244",
+      "timestamp": "2026-10-26T01:00:00Z",
+      "amount": 1388.07,
+      "direction": "out",
+      "counterparty_id": "CP-0050",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00245",
+      "timestamp": "2026-10-26T01:00:00Z",
+      "amount": 1713.35,
+      "direction": "out",
+      "counterparty_id": "CP-0990",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00246",
+      "timestamp": "2026-10-26T01:00:00Z",
+      "amount": 1922.16,
+      "direction": "out",
+      "counterparty_id": "CP-0933",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00247",
+      "timestamp": "2026-10-26T01:00:00Z",
+      "amount": 2135.96,
+      "direction": "out",
+      "counterparty_id": "CP-0876",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00248",
+      "timestamp": "2026-10-26T01:00:00Z",
+      "amount": 2416.28,
+      "direction": "out",
+      "counterparty_id": "CP-0819",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00249",
+      "timestamp": "2026-10-26T02:00:00Z",
+      "amount": 1686.92,
+      "direction": "out",
+      "counterparty_id": "CP-0762",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00250",
+      "timestamp": "2026-10-26T02:00:00Z",
+      "amount": 4629.53,
+      "direction": "out",
+      "counterparty_id": "CP-0705",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00251",
+      "timestamp": "2026-10-26T02:00:00Z",
+      "amount": 2478.23,
+      "direction": "out",
+      "counterparty_id": "CP-0648",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00252",
+      "timestamp": "2026-10-26T02:00:00Z",
+      "amount": 2367.57,
+      "direction": "out",
+      "counterparty_id": "CP-0591",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00253",
+      "timestamp": "2026-10-26T02:00:00Z",
+      "amount": 3082.05,
+      "direction": "out",
+      "counterparty_id": "CP-0534",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00254",
+      "timestamp": "2026-10-26T02:00:00Z",
+      "amount": 1556.44,
+      "direction": "out",
+      "counterparty_id": "CP-0477",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00255",
+      "timestamp": "2026-10-26T03:00:00Z",
+      "amount": 1439.41,
+      "direction": "out",
+      "counterparty_id": "CP-0420",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00256",
+      "timestamp": "2026-10-26T03:00:00Z",
+      "amount": 1268.76,
+      "direction": "out",
+      "counterparty_id": "CP-0363",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00257",
+      "timestamp": "2026-10-26T03:00:00Z",
+      "amount": 6482.01,
+      "direction": "out",
+      "counterparty_id": "CP-0306",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00258",
+      "timestamp": "2026-10-26T03:00:00Z",
+      "amount": 1447.08,
+      "direction": "out",
+      "counterparty_id": "CP-0249",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00259",
+      "timestamp": "2026-10-26T04:00:00Z",
+      "amount": 2040.81,
+      "direction": "out",
+      "counterparty_id": "CP-0192",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00260",
+      "timestamp": "2026-10-26T04:00:00Z",
+      "amount": 881.66,
+      "direction": "out",
+      "counterparty_id": "CP-0135",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00261",
+      "timestamp": "2026-10-26T04:00:00Z",
+      "amount": 2388.03,
+      "direction": "out",
+      "counterparty_id": "CP-0078",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00262",
+      "timestamp": "2026-10-26T04:00:00Z",
+      "amount": 2228.43,
+      "direction": "out",
+      "counterparty_id": "CP-0021",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00263",
+      "timestamp": "2026-10-26T04:00:00Z",
+      "amount": 2177.38,
+      "direction": "out",
+      "counterparty_id": "CP-0961",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00264",
+      "timestamp": "2026-10-26T04:00:00Z",
+      "amount": 1082.35,
+      "direction": "out",
+      "counterparty_id": "CP-0904",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00265",
+      "timestamp": "2026-10-26T04:00:00Z",
+      "amount": 2535.33,
+      "direction": "out",
+      "counterparty_id": "CP-0847",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00266",
+      "timestamp": "2026-10-26T04:00:00Z",
+      "amount": 3203.26,
+      "direction": "out",
+      "counterparty_id": "CP-0790",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00267",
+      "timestamp": "2026-10-26T04:00:00Z",
+      "amount": 3331.12,
+      "direction": "out",
+      "counterparty_id": "CP-0733",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00268",
+      "timestamp": "2026-10-26T04:00:00Z",
+      "amount": 2166.27,
+      "direction": "out",
+      "counterparty_id": "CP-0676",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00269",
+      "timestamp": "2026-10-27T00:00:00Z",
+      "amount": 5115.07,
+      "direction": "out",
+      "counterparty_id": "CP-0619",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00270",
+      "timestamp": "2026-10-27T00:00:00Z",
+      "amount": 1668.7,
+      "direction": "out",
+      "counterparty_id": "CP-0562",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00271",
+      "timestamp": "2026-10-27T00:00:00Z",
+      "amount": 1839.67,
+      "direction": "out",
+      "counterparty_id": "CP-0505",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00272",
+      "timestamp": "2026-10-27T00:00:00Z",
+      "amount": 1384.29,
+      "direction": "out",
+      "counterparty_id": "CP-0448",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00273",
+      "timestamp": "2026-10-27T00:00:00Z",
+      "amount": 2780.52,
+      "direction": "out",
+      "counterparty_id": "CP-0391",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00274",
+      "timestamp": "2026-10-27T00:00:00Z",
+      "amount": 3969.1,
+      "direction": "out",
+      "counterparty_id": "CP-0334",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00275",
+      "timestamp": "2026-10-27T00:00:00Z",
+      "amount": 1697.55,
+      "direction": "out",
+      "counterparty_id": "CP-0277",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00276",
+      "timestamp": "2026-10-27T00:00:00Z",
+      "amount": 1404.91,
+      "direction": "out",
+      "counterparty_id": "CP-0220",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00277",
+      "timestamp": "2026-10-27T00:00:00Z",
+      "amount": 1302.46,
+      "direction": "out",
+      "counterparty_id": "CP-0163",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00278",
+      "timestamp": "2026-10-27T00:00:00Z",
+      "amount": 1544.49,
+      "direction": "out",
+      "counterparty_id": "CP-0106",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00279",
+      "timestamp": "2026-10-27T00:00:00Z",
+      "amount": 4137.3,
+      "direction": "out",
+      "counterparty_id": "CP-0049",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00280",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 2380.12,
+      "direction": "out",
+      "counterparty_id": "CP-0989",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-011"
+    },
+    {
+      "txn_id": "TXN-0003-00281",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 1704.62,
+      "direction": "out",
+      "counterparty_id": "CP-0932",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00282",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 2528.01,
+      "direction": "out",
+      "counterparty_id": "CP-0875",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00283",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 2463.13,
+      "direction": "out",
+      "counterparty_id": "CP-0818",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00284",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 2002.51,
+      "direction": "out",
+      "counterparty_id": "CP-0761",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00285",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 1212.99,
+      "direction": "out",
+      "counterparty_id": "CP-0704",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00286",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 2394.67,
+      "direction": "out",
+      "counterparty_id": "CP-0647",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00287",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 1209.02,
+      "direction": "out",
+      "counterparty_id": "CP-0590",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00288",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 1367.05,
+      "direction": "out",
+      "counterparty_id": "CP-0533",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00289",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 1416.42,
+      "direction": "out",
+      "counterparty_id": "CP-0476",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00290",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 2081.51,
+      "direction": "out",
+      "counterparty_id": "CP-0419",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00291",
+      "timestamp": "2026-10-27T01:00:00Z",
+      "amount": 1380.31,
+      "direction": "out",
+      "counterparty_id": "CP-0362",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00292",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 1175.93,
+      "direction": "out",
+      "counterparty_id": "CP-0305",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00293",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 2560.11,
+      "direction": "out",
+      "counterparty_id": "CP-0248",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00294",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 1877.68,
+      "direction": "out",
+      "counterparty_id": "CP-0191",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00295",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 1313.22,
+      "direction": "out",
+      "counterparty_id": "CP-0134",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00296",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 2454.93,
+      "direction": "out",
+      "counterparty_id": "CP-0077",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00297",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 5131.34,
+      "direction": "out",
+      "counterparty_id": "CP-0020",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00298",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 1113.88,
+      "direction": "out",
+      "counterparty_id": "CP-0960",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00299",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 2709.83,
+      "direction": "out",
+      "counterparty_id": "CP-0903",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00300",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 3594.31,
+      "direction": "out",
+      "counterparty_id": "CP-0846",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00301",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 2833.87,
+      "direction": "out",
+      "counterparty_id": "CP-0789",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00302",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 2368.65,
+      "direction": "out",
+      "counterparty_id": "CP-0732",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00303",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 1393.72,
+      "direction": "out",
+      "counterparty_id": "CP-0675",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00304",
+      "timestamp": "2026-10-27T02:00:00Z",
+      "amount": 2287.45,
+      "direction": "out",
+      "counterparty_id": "CP-0618",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-011"
+    },
+    {
+      "txn_id": "TXN-0003-00305",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 1971.91,
+      "direction": "out",
+      "counterparty_id": "CP-0561",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00306",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 2779.09,
+      "direction": "out",
+      "counterparty_id": "CP-0504",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00307",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 3196.2,
+      "direction": "out",
+      "counterparty_id": "CP-0447",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00308",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 1878.26,
+      "direction": "out",
+      "counterparty_id": "CP-0390",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00309",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 1740.3,
+      "direction": "out",
+      "counterparty_id": "CP-0333",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00310",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 2353.24,
+      "direction": "out",
+      "counterparty_id": "CP-0276",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00311",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 3755.64,
+      "direction": "out",
+      "counterparty_id": "CP-0219",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00312",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 1913.81,
+      "direction": "out",
+      "counterparty_id": "CP-0162",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00313",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 1818.47,
+      "direction": "out",
+      "counterparty_id": "CP-0105",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00314",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 2568.35,
+      "direction": "out",
+      "counterparty_id": "CP-0048",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00315",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 2631.46,
+      "direction": "out",
+      "counterparty_id": "CP-0988",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00316",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 2682.64,
+      "direction": "out",
+      "counterparty_id": "CP-0931",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00317",
+      "timestamp": "2026-10-27T03:00:00Z",
+      "amount": 3684.15,
+      "direction": "out",
+      "counterparty_id": "CP-0874",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00318",
+      "timestamp": "2026-10-27T04:00:00Z",
+      "amount": 1527.1,
+      "direction": "out",
+      "counterparty_id": "CP-0817",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00319",
+      "timestamp": "2026-10-27T04:00:00Z",
+      "amount": 2190.8,
+      "direction": "out",
+      "counterparty_id": "CP-0760",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00320",
+      "timestamp": "2026-10-27T04:00:00Z",
+      "amount": 2565.04,
+      "direction": "out",
+      "counterparty_id": "CP-0703",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00321",
+      "timestamp": "2026-10-27T04:00:00Z",
+      "amount": 2423.75,
+      "direction": "out",
+      "counterparty_id": "CP-0646",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00322",
+      "timestamp": "2026-10-27T04:00:00Z",
+      "amount": 1766.01,
+      "direction": "out",
+      "counterparty_id": "CP-0589",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00323",
+      "timestamp": "2026-10-28T00:00:00Z",
+      "amount": 2608.89,
+      "direction": "out",
+      "counterparty_id": "CP-0532",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00324",
+      "timestamp": "2026-10-28T00:00:00Z",
+      "amount": 1283.5,
+      "direction": "out",
+      "counterparty_id": "CP-0475",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00325",
+      "timestamp": "2026-10-28T00:00:00Z",
+      "amount": 2209.04,
+      "direction": "out",
+      "counterparty_id": "CP-0418",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00326",
+      "timestamp": "2026-10-28T00:00:00Z",
+      "amount": 2735.76,
+      "direction": "out",
+      "counterparty_id": "CP-0361",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00327",
+      "timestamp": "2026-10-28T00:00:00Z",
+      "amount": 3508.57,
+      "direction": "out",
+      "counterparty_id": "CP-0304",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00328",
+      "timestamp": "2026-10-28T00:00:00Z",
+      "amount": 2597.19,
+      "direction": "out",
+      "counterparty_id": "CP-0247",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00329",
+      "timestamp": "2026-10-28T00:00:00Z",
+      "amount": 1354.26,
+      "direction": "out",
+      "counterparty_id": "CP-0190",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00330",
+      "timestamp": "2026-10-28T00:00:00Z",
+      "amount": 8691.99,
+      "direction": "out",
+      "counterparty_id": "CP-0133",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00331",
+      "timestamp": "2026-10-28T00:00:00Z",
+      "amount": 1888.43,
+      "direction": "out",
+      "counterparty_id": "CP-0076",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00332",
+      "timestamp": "2026-10-28T00:00:00Z",
+      "amount": 1430.42,
+      "direction": "out",
+      "counterparty_id": "CP-0019",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00333",
+      "timestamp": "2026-10-28T01:00:00Z",
+      "amount": 2269.65,
+      "direction": "out",
+      "counterparty_id": "CP-0959",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00334",
+      "timestamp": "2026-10-28T01:00:00Z",
+      "amount": 4365.64,
+      "direction": "out",
+      "counterparty_id": "CP-0902",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00335",
+      "timestamp": "2026-10-28T01:00:00Z",
+      "amount": 1412.37,
+      "direction": "out",
+      "counterparty_id": "CP-0845",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00336",
+      "timestamp": "2026-10-28T01:00:00Z",
+      "amount": 1878.64,
+      "direction": "out",
+      "counterparty_id": "CP-0788",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00337",
+      "timestamp": "2026-10-28T01:00:00Z",
+      "amount": 3543.39,
+      "direction": "out",
+      "counterparty_id": "CP-0731",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00338",
+      "timestamp": "2026-10-28T01:00:00Z",
+      "amount": 2175.48,
+      "direction": "out",
+      "counterparty_id": "CP-0674",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00339",
+      "timestamp": "2026-10-28T01:00:00Z",
+      "amount": 2047.71,
+      "direction": "out",
+      "counterparty_id": "CP-0617",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00340",
+      "timestamp": "2026-10-28T01:00:00Z",
+      "amount": 2993.52,
+      "direction": "out",
+      "counterparty_id": "CP-0560",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00341",
+      "timestamp": "2026-10-28T01:00:00Z",
+      "amount": 2132.65,
+      "direction": "out",
+      "counterparty_id": "CP-0503",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00342",
+      "timestamp": "2026-10-28T02:00:00Z",
+      "amount": 1713.81,
+      "direction": "out",
+      "counterparty_id": "CP-0446",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00343",
+      "timestamp": "2026-10-28T02:00:00Z",
+      "amount": 2038.93,
+      "direction": "out",
+      "counterparty_id": "CP-0389",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00344",
+      "timestamp": "2026-10-28T02:00:00Z",
+      "amount": 1347.45,
+      "direction": "out",
+      "counterparty_id": "CP-0332",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-011"
+    },
+    {
+      "txn_id": "TXN-0003-00345",
+      "timestamp": "2026-10-28T02:00:00Z",
+      "amount": 3504.44,
+      "direction": "out",
+      "counterparty_id": "CP-0275",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00346",
+      "timestamp": "2026-10-28T02:00:00Z",
+      "amount": 2159.56,
+      "direction": "out",
+      "counterparty_id": "CP-0218",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-011"
+    },
+    {
+      "txn_id": "TXN-0003-00347",
+      "timestamp": "2026-10-28T02:00:00Z",
+      "amount": 3642.6,
+      "direction": "out",
+      "counterparty_id": "CP-0161",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00348",
+      "timestamp": "2026-10-28T02:00:00Z",
+      "amount": 3440.02,
+      "direction": "out",
+      "counterparty_id": "CP-0104",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00349",
+      "timestamp": "2026-10-28T03:00:00Z",
+      "amount": 2981.76,
+      "direction": "out",
+      "counterparty_id": "CP-0047",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00350",
+      "timestamp": "2026-10-28T03:00:00Z",
+      "amount": 2364.68,
+      "direction": "out",
+      "counterparty_id": "CP-0987",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00351",
+      "timestamp": "2026-10-28T03:00:00Z",
+      "amount": 2449.15,
+      "direction": "out",
+      "counterparty_id": "CP-0930",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00352",
+      "timestamp": "2026-10-28T04:00:00Z",
+      "amount": 2236.73,
+      "direction": "out",
+      "counterparty_id": "CP-0873",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00353",
+      "timestamp": "2026-10-28T04:00:00Z",
+      "amount": 4675.55,
+      "direction": "out",
+      "counterparty_id": "CP-0816",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00354",
+      "timestamp": "2026-10-28T04:00:00Z",
+      "amount": 1310.7,
+      "direction": "out",
+      "counterparty_id": "CP-0759",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00355",
+      "timestamp": "2026-10-28T04:00:00Z",
+      "amount": 1649.86,
+      "direction": "out",
+      "counterparty_id": "CP-0702",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00356",
+      "timestamp": "2026-10-28T04:00:00Z",
+      "amount": 1760.14,
+      "direction": "out",
+      "counterparty_id": "CP-0645",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00357",
+      "timestamp": "2026-10-28T04:00:00Z",
+      "amount": 5894.27,
+      "direction": "out",
+      "counterparty_id": "CP-0588",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00358",
+      "timestamp": "2026-10-28T04:00:00Z",
+      "amount": 3299.05,
+      "direction": "out",
+      "counterparty_id": "CP-0531",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00359",
+      "timestamp": "2026-10-28T04:00:00Z",
+      "amount": 928.03,
+      "direction": "out",
+      "counterparty_id": "CP-0474",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00360",
+      "timestamp": "2026-10-28T09:00:00Z",
+      "amount": 64.99,
+      "direction": "in",
+      "counterparty_id": "CP-0417",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00361",
+      "timestamp": "2026-10-29T00:00:00Z",
+      "amount": 3527.15,
+      "direction": "out",
+      "counterparty_id": "CP-0360",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00362",
+      "timestamp": "2026-10-29T00:00:00Z",
+      "amount": 1437.19,
+      "direction": "out",
+      "counterparty_id": "CP-0303",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00363",
+      "timestamp": "2026-10-29T00:00:00Z",
+      "amount": 1933.76,
+      "direction": "out",
+      "counterparty_id": "CP-0246",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00364",
+      "timestamp": "2026-10-29T00:00:00Z",
+      "amount": 2351.48,
+      "direction": "out",
+      "counterparty_id": "CP-0189",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00365",
+      "timestamp": "2026-10-29T01:00:00Z",
+      "amount": 2879.3,
+      "direction": "out",
+      "counterparty_id": "CP-0132",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00366",
+      "timestamp": "2026-10-29T01:00:00Z",
+      "amount": 2838.48,
+      "direction": "out",
+      "counterparty_id": "CP-0075",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00367",
+      "timestamp": "2026-10-29T01:00:00Z",
+      "amount": 2787.7,
+      "direction": "out",
+      "counterparty_id": "CP-0018",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00368",
+      "timestamp": "2026-10-29T01:00:00Z",
+      "amount": 2102.74,
+      "direction": "out",
+      "counterparty_id": "CP-0958",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00369",
+      "timestamp": "2026-10-29T01:00:00Z",
+      "amount": 2628.9,
+      "direction": "out",
+      "counterparty_id": "CP-0901",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00370",
+      "timestamp": "2026-10-29T02:00:00Z",
+      "amount": 2619.01,
+      "direction": "out",
+      "counterparty_id": "CP-0844",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00371",
+      "timestamp": "2026-10-29T02:00:00Z",
+      "amount": 2684.87,
+      "direction": "out",
+      "counterparty_id": "CP-0787",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00372",
+      "timestamp": "2026-10-29T02:00:00Z",
+      "amount": 1241.75,
+      "direction": "out",
+      "counterparty_id": "CP-0730",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00373",
+      "timestamp": "2026-10-29T02:00:00Z",
+      "amount": 2796.7,
+      "direction": "out",
+      "counterparty_id": "CP-0673",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00374",
+      "timestamp": "2026-10-29T02:00:00Z",
+      "amount": 1930.04,
+      "direction": "out",
+      "counterparty_id": "CP-0616",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00375",
+      "timestamp": "2026-10-29T02:00:00Z",
+      "amount": 3291.85,
+      "direction": "out",
+      "counterparty_id": "CP-0559",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00376",
+      "timestamp": "2026-10-29T02:00:00Z",
+      "amount": 2992.44,
+      "direction": "out",
+      "counterparty_id": "CP-0502",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00377",
+      "timestamp": "2026-10-29T02:00:00Z",
+      "amount": 980.69,
+      "direction": "out",
+      "counterparty_id": "CP-0445",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00378",
+      "timestamp": "2026-10-29T03:00:00Z",
+      "amount": 2044.21,
+      "direction": "out",
+      "counterparty_id": "CP-0388",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00379",
+      "timestamp": "2026-10-29T03:00:00Z",
+      "amount": 1981.78,
+      "direction": "out",
+      "counterparty_id": "CP-0331",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00380",
+      "timestamp": "2026-10-29T03:00:00Z",
+      "amount": 2407.27,
+      "direction": "out",
+      "counterparty_id": "CP-0274",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00381",
+      "timestamp": "2026-10-29T03:00:00Z",
+      "amount": 3097.04,
+      "direction": "out",
+      "counterparty_id": "CP-0217",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00382",
+      "timestamp": "2026-10-29T04:00:00Z",
+      "amount": 1792.2,
+      "direction": "out",
+      "counterparty_id": "CP-0160",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00383",
+      "timestamp": "2026-10-29T04:00:00Z",
+      "amount": 1650.97,
+      "direction": "out",
+      "counterparty_id": "CP-0103",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00384",
+      "timestamp": "2026-10-29T04:00:00Z",
+      "amount": 3617.67,
+      "direction": "out",
+      "counterparty_id": "CP-0046",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00385",
+      "timestamp": "2026-10-29T04:00:00Z",
+      "amount": 2127.49,
+      "direction": "out",
+      "counterparty_id": "CP-0986",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00386",
+      "timestamp": "2026-10-29T04:00:00Z",
+      "amount": 2444.97,
+      "direction": "out",
+      "counterparty_id": "CP-0929",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00387",
+      "timestamp": "2026-10-29T04:00:00Z",
+      "amount": 3440.09,
+      "direction": "out",
+      "counterparty_id": "CP-0872",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00388",
+      "timestamp": "2026-10-29T04:00:00Z",
+      "amount": 1257.25,
+      "direction": "out",
+      "counterparty_id": "CP-0815",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00389",
+      "timestamp": "2026-10-29T04:00:00Z",
+      "amount": 1234.67,
+      "direction": "out",
+      "counterparty_id": "CP-0758",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00390",
+      "timestamp": "2026-10-29T04:00:00Z",
+      "amount": 1971.65,
+      "direction": "out",
+      "counterparty_id": "CP-0701",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00391",
+      "timestamp": "2026-10-29T17:00:00Z",
+      "amount": 134.63,
+      "direction": "out",
+      "counterparty_id": "CP-0644",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00392",
+      "timestamp": "2026-10-30T00:00:00Z",
+      "amount": 864.16,
+      "direction": "out",
+      "counterparty_id": "CP-0587",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00393",
+      "timestamp": "2026-10-30T00:00:00Z",
+      "amount": 3875.09,
+      "direction": "out",
+      "counterparty_id": "CP-0530",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00394",
+      "timestamp": "2026-10-30T00:00:00Z",
+      "amount": 1019.91,
+      "direction": "out",
+      "counterparty_id": "CP-0473",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00395",
+      "timestamp": "2026-10-30T00:00:00Z",
+      "amount": 1939.96,
+      "direction": "out",
+      "counterparty_id": "CP-0416",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-011"
+    },
+    {
+      "txn_id": "TXN-0003-00396",
+      "timestamp": "2026-10-30T00:00:00Z",
+      "amount": 2733.1,
+      "direction": "out",
+      "counterparty_id": "CP-0359",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00397",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 1030.29,
+      "direction": "out",
+      "counterparty_id": "CP-0302",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00398",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 2123.66,
+      "direction": "out",
+      "counterparty_id": "CP-0245",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00399",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 2810.91,
+      "direction": "out",
+      "counterparty_id": "CP-0188",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00400",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 2905.58,
+      "direction": "out",
+      "counterparty_id": "CP-0131",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00401",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 2910.62,
+      "direction": "out",
+      "counterparty_id": "CP-0074",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00402",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 1760.88,
+      "direction": "out",
+      "counterparty_id": "CP-0017",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00403",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 2312.79,
+      "direction": "out",
+      "counterparty_id": "CP-0957",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00404",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 1935.0,
+      "direction": "out",
+      "counterparty_id": "CP-0900",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00405",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 4499.13,
+      "direction": "out",
+      "counterparty_id": "CP-0843",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00406",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 2446.57,
+      "direction": "out",
+      "counterparty_id": "CP-0786",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00407",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 2848.06,
+      "direction": "out",
+      "counterparty_id": "CP-0729",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00408",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 2012.67,
+      "direction": "out",
+      "counterparty_id": "CP-0672",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00409",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 4089.2,
+      "direction": "out",
+      "counterparty_id": "CP-0615",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-011"
+    },
+    {
+      "txn_id": "TXN-0003-00410",
+      "timestamp": "2026-10-30T01:00:00Z",
+      "amount": 3378.9,
+      "direction": "out",
+      "counterparty_id": "CP-0558",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00411",
+      "timestamp": "2026-10-30T02:00:00Z",
+      "amount": 4489.96,
+      "direction": "out",
+      "counterparty_id": "CP-0501",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00412",
+      "timestamp": "2026-10-30T02:00:00Z",
+      "amount": 1847.53,
+      "direction": "out",
+      "counterparty_id": "CP-0444",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00413",
+      "timestamp": "2026-10-30T02:00:00Z",
+      "amount": 2829.57,
+      "direction": "out",
+      "counterparty_id": "CP-0387",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00414",
+      "timestamp": "2026-10-30T02:00:00Z",
+      "amount": 1711.58,
+      "direction": "out",
+      "counterparty_id": "CP-0330",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00415",
+      "timestamp": "2026-10-30T02:00:00Z",
+      "amount": 2176.15,
+      "direction": "out",
+      "counterparty_id": "CP-0273",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00416",
+      "timestamp": "2026-10-30T02:00:00Z",
+      "amount": 4116.41,
+      "direction": "out",
+      "counterparty_id": "CP-0216",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00417",
+      "timestamp": "2026-10-30T02:00:00Z",
+      "amount": 1516.52,
+      "direction": "out",
+      "counterparty_id": "CP-0159",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00418",
+      "timestamp": "2026-10-30T02:00:00Z",
+      "amount": 1870.47,
+      "direction": "out",
+      "counterparty_id": "CP-0102",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00419",
+      "timestamp": "2026-10-30T03:00:00Z",
+      "amount": 2707.02,
+      "direction": "out",
+      "counterparty_id": "CP-0045",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00420",
+      "timestamp": "2026-10-30T03:00:00Z",
+      "amount": 1871.51,
+      "direction": "out",
+      "counterparty_id": "CP-0985",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00421",
+      "timestamp": "2026-10-30T03:00:00Z",
+      "amount": 1669.4,
+      "direction": "out",
+      "counterparty_id": "CP-0928",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-011"
+    },
+    {
+      "txn_id": "TXN-0003-00422",
+      "timestamp": "2026-10-30T03:00:00Z",
+      "amount": 1811.88,
+      "direction": "out",
+      "counterparty_id": "CP-0871",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00423",
+      "timestamp": "2026-10-30T03:00:00Z",
+      "amount": 2673.54,
+      "direction": "out",
+      "counterparty_id": "CP-0814",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-011"
+    },
+    {
+      "txn_id": "TXN-0003-00424",
+      "timestamp": "2026-10-30T03:00:00Z",
+      "amount": 1306.15,
+      "direction": "out",
+      "counterparty_id": "CP-0757",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00425",
+      "timestamp": "2026-10-30T03:00:00Z",
+      "amount": 1583.07,
+      "direction": "out",
+      "counterparty_id": "CP-0700",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00426",
+      "timestamp": "2026-10-30T03:00:00Z",
+      "amount": 2084.91,
+      "direction": "out",
+      "counterparty_id": "CP-0643",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00427",
+      "timestamp": "2026-10-30T03:00:00Z",
+      "amount": 2299.93,
+      "direction": "out",
+      "counterparty_id": "CP-0586",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00428",
+      "timestamp": "2026-10-30T03:00:00Z",
+      "amount": 3983.5,
+      "direction": "out",
+      "counterparty_id": "CP-0529",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00429",
+      "timestamp": "2026-10-30T04:00:00Z",
+      "amount": 3380.25,
+      "direction": "out",
+      "counterparty_id": "CP-0472",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00430",
+      "timestamp": "2026-10-30T04:00:00Z",
+      "amount": 1731.03,
+      "direction": "out",
+      "counterparty_id": "CP-0415",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00431",
+      "timestamp": "2026-10-30T04:00:00Z",
+      "amount": 2444.29,
+      "direction": "out",
+      "counterparty_id": "CP-0358",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00432",
+      "timestamp": "2026-10-30T04:00:00Z",
+      "amount": 2121.48,
+      "direction": "out",
+      "counterparty_id": "CP-0301",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00433",
+      "timestamp": "2026-10-30T04:00:00Z",
+      "amount": 1000.51,
+      "direction": "out",
+      "counterparty_id": "CP-0244",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00434",
+      "timestamp": "2026-10-30T04:00:00Z",
+      "amount": 2007.03,
+      "direction": "out",
+      "counterparty_id": "CP-0187",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00435",
+      "timestamp": "2026-10-30T04:00:00Z",
+      "amount": 3378.91,
+      "direction": "out",
+      "counterparty_id": "CP-0130",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00436",
+      "timestamp": "2026-10-30T04:00:00Z",
+      "amount": 2116.06,
+      "direction": "out",
+      "counterparty_id": "CP-0073",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00437",
+      "timestamp": "2026-10-30T14:00:00Z",
+      "amount": 52.93,
+      "direction": "in",
+      "counterparty_id": "CP-0016",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    },
+    {
+      "txn_id": "TXN-0003-00438",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 2980.93,
+      "direction": "out",
+      "counterparty_id": "CP-0956",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00439",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 2123.22,
+      "direction": "out",
+      "counterparty_id": "CP-0899",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00440",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 3057.83,
+      "direction": "out",
+      "counterparty_id": "CP-0842",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00441",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 1325.05,
+      "direction": "out",
+      "counterparty_id": "CP-0785",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00442",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 2663.41,
+      "direction": "out",
+      "counterparty_id": "CP-0728",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00443",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 1565.54,
+      "direction": "out",
+      "counterparty_id": "CP-0671",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00444",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 2790.61,
+      "direction": "out",
+      "counterparty_id": "CP-0614",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00445",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 1896.96,
+      "direction": "out",
+      "counterparty_id": "CP-0557",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00446",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 1592.39,
+      "direction": "out",
+      "counterparty_id": "CP-0500",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00447",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 1931.89,
+      "direction": "out",
+      "counterparty_id": "CP-0443",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00448",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 1735.04,
+      "direction": "out",
+      "counterparty_id": "CP-0386",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00449",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 3916.11,
+      "direction": "out",
+      "counterparty_id": "CP-0329",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00450",
+      "timestamp": "2026-10-31T00:00:00Z",
+      "amount": 2591.95,
+      "direction": "out",
+      "counterparty_id": "CP-0272",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00451",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 3439.81,
+      "direction": "out",
+      "counterparty_id": "CP-0215",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00452",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 835.35,
+      "direction": "out",
+      "counterparty_id": "CP-0158",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00453",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 5294.36,
+      "direction": "out",
+      "counterparty_id": "CP-0101",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00454",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 3803.87,
+      "direction": "out",
+      "counterparty_id": "CP-0044",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00455",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 2207.86,
+      "direction": "out",
+      "counterparty_id": "CP-0984",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00456",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 1079.61,
+      "direction": "out",
+      "counterparty_id": "CP-0927",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00457",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 1739.63,
+      "direction": "out",
+      "counterparty_id": "CP-0870",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00458",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 3486.93,
+      "direction": "out",
+      "counterparty_id": "CP-0813",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00459",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 878.84,
+      "direction": "out",
+      "counterparty_id": "CP-0756",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-011"
+    },
+    {
+      "txn_id": "TXN-0003-00460",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 4367.7,
+      "direction": "out",
+      "counterparty_id": "CP-0699",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00461",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 1683.89,
+      "direction": "out",
+      "counterparty_id": "CP-0642",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00462",
+      "timestamp": "2026-10-31T01:00:00Z",
+      "amount": 2449.72,
+      "direction": "out",
+      "counterparty_id": "CP-0585",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00463",
+      "timestamp": "2026-10-31T02:00:00Z",
+      "amount": 3214.13,
+      "direction": "out",
+      "counterparty_id": "CP-0528",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00464",
+      "timestamp": "2026-10-31T02:00:00Z",
+      "amount": 2799.23,
+      "direction": "out",
+      "counterparty_id": "CP-0471",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00465",
+      "timestamp": "2026-10-31T02:00:00Z",
+      "amount": 3873.86,
+      "direction": "out",
+      "counterparty_id": "CP-0414",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00466",
+      "timestamp": "2026-10-31T02:00:00Z",
+      "amount": 1915.98,
+      "direction": "out",
+      "counterparty_id": "CP-0357",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-001"
+    },
+    {
+      "txn_id": "TXN-0003-00467",
+      "timestamp": "2026-10-31T02:00:00Z",
+      "amount": 4956.34,
+      "direction": "out",
+      "counterparty_id": "CP-0300",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00468",
+      "timestamp": "2026-10-31T02:00:00Z",
+      "amount": 1487.39,
+      "direction": "out",
+      "counterparty_id": "CP-0243",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00469",
+      "timestamp": "2026-10-31T02:00:00Z",
+      "amount": 2214.48,
+      "direction": "out",
+      "counterparty_id": "CP-0186",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00470",
+      "timestamp": "2026-10-31T02:00:00Z",
+      "amount": 4195.4,
+      "direction": "out",
+      "counterparty_id": "CP-0129",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00471",
+      "timestamp": "2026-10-31T02:00:00Z",
+      "amount": 1425.1,
+      "direction": "out",
+      "counterparty_id": "CP-0072",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-005"
+    },
+    {
+      "txn_id": "TXN-0003-00472",
+      "timestamp": "2026-10-31T03:00:00Z",
+      "amount": 2171.62,
+      "direction": "out",
+      "counterparty_id": "CP-0015",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-006"
+    },
+    {
+      "txn_id": "TXN-0003-00473",
+      "timestamp": "2026-10-31T03:00:00Z",
+      "amount": 2448.73,
+      "direction": "out",
+      "counterparty_id": "CP-0955",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00474",
+      "timestamp": "2026-10-31T03:00:00Z",
+      "amount": 4121.45,
+      "direction": "out",
+      "counterparty_id": "CP-0898",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00475",
+      "timestamp": "2026-10-31T03:00:00Z",
+      "amount": 1772.51,
+      "direction": "out",
+      "counterparty_id": "CP-0841",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-009"
+    },
+    {
+      "txn_id": "TXN-0003-00476",
+      "timestamp": "2026-10-31T03:00:00Z",
+      "amount": 2449.41,
+      "direction": "out",
+      "counterparty_id": "CP-0784",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-012"
+    },
+    {
+      "txn_id": "TXN-0003-00477",
+      "timestamp": "2026-10-31T03:00:00Z",
+      "amount": 4703.58,
+      "direction": "out",
+      "counterparty_id": "CP-0727",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-007"
+    },
+    {
+      "txn_id": "TXN-0003-00478",
+      "timestamp": "2026-10-31T03:00:00Z",
+      "amount": 2732.9,
+      "direction": "out",
+      "counterparty_id": "CP-0670",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00479",
+      "timestamp": "2026-10-31T03:00:00Z",
+      "amount": 2609.81,
+      "direction": "out",
+      "counterparty_id": "CP-0613",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-010"
+    },
+    {
+      "txn_id": "TXN-0003-00480",
+      "timestamp": "2026-10-31T03:00:00Z",
+      "amount": 3198.01,
+      "direction": "out",
+      "counterparty_id": "CP-0556",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-008"
+    },
+    {
+      "txn_id": "TXN-0003-00481",
+      "timestamp": "2026-10-31T04:00:00Z",
+      "amount": 1553.02,
+      "direction": "out",
+      "counterparty_id": "CP-0499",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00482",
+      "timestamp": "2026-10-31T04:00:00Z",
+      "amount": 2046.33,
+      "direction": "out",
+      "counterparty_id": "CP-0442",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-004"
+    },
+    {
+      "txn_id": "TXN-0003-00483",
+      "timestamp": "2026-10-31T04:00:00Z",
+      "amount": 3645.94,
+      "direction": "out",
+      "counterparty_id": "CP-0385",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-003"
+    },
+    {
+      "txn_id": "TXN-0003-00484",
+      "timestamp": "2026-10-31T04:00:00Z",
+      "amount": 850.08,
+      "direction": "out",
+      "counterparty_id": "CP-0328",
+      "is_new_beneficiary": true,
+      "channel": "transfer",
+      "device_id": "DEV-002"
+    },
+    {
+      "txn_id": "TXN-0003-00485",
+      "timestamp": "2026-10-31T10:00:00Z",
+      "amount": 60.81,
+      "direction": "out",
+      "counterparty_id": "CP-0271",
+      "is_new_beneficiary": false,
+      "channel": "card",
+      "device_id": "DEV-000"
+    }
+  ],
+  "ground_truth": {
+    "expected_action": "abstain",
+    "injected": [
+      "out_of_distribution"
+    ]
+  }
+}

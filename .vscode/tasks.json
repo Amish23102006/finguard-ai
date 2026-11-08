@@ -1,0 +1,87 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Setup: create .venv and install",
+      "type": "shell",
+      "command": "python3 -m venv .venv && .venv/bin/python -m pip install --upgrade pip && .venv/bin/python -m pip install -e '.[dev]' && cp -n .env.example .env || true",
+      "windows": {
+        "command": "py -3 -m venv .venv; .venv\\Scripts\\python -m pip install --upgrade pip; .venv\\Scripts\\python -m pip install -e '.[dev]'; if (!(Test-Path .env)) { Copy-Item .env.example .env }"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Test",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "pytest", "--cov=finguard", "--cov-report=term-missing"],
+      "group": { "kind": "test", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "Lint (ruff)",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "ruff", "check", "src", "tests"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Format (ruff)",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "ruff", "format", "src", "tests"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Type check (mypy)",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "mypy"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Check all (lint + types + tests)",
+      "dependsOrder": "sequence",
+      "dependsOn": ["Lint (ruff)", "Type check (mypy)", "Test"],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "Train models",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "finguard.models.train"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate demo cases",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "finguard.synthetic.generator", "--out", "data/sample"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Run API",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "uvicorn", "finguard.api.main:app", "--reload", "--port", "8000"],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Run dashboard",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "streamlit", "run", "src/finguard/dashboard/app.py"],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Docker: compose up",
+      "type": "shell",
+      "command": "docker compose up --build",
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

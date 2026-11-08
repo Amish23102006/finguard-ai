@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you reference this project, please cite it as below."
+title: "FinGuard AI: explainable multi-agent financial risk intelligence"
+authors:
+  - family-names: Chaturvedi
+    given-names: Amish
+version: 0.1.0
+date-released: 2026-11-08
+license: MIT
