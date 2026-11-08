@@ -4,6 +4,8 @@
 
 ![python](https://img.shields.io/badge/python-3.11%2B-blue) [![ci](https://github.com/Amish23102006/finguard-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Amish23102006/finguard-ai/actions/workflows/ci.yml) [![security](https://github.com/Amish23102006/finguard-ai/actions/workflows/security.yml/badge.svg)](https://github.com/Amish23102006/finguard-ai/actions/workflows/security.yml) ![data](https://img.shields.io/badge/data-synthetic%20only-orange) ![license](https://img.shields.io/badge/license-MIT-lightgrey)
 
+**▶ Live demo: [amish-finguard-ai.streamlit.app](https://amish-finguard-ai.streamlit.app)**, no install needed. Pick a demo case or enter your own (synthetic data only).
+
 > FinGuard is built on one idea: financial AI should do more than predict. It should
 > expose conflicting evidence, recognise unfamiliar situations, estimate the cost of being
 > wrong and keep an auditable path for human decisions.
