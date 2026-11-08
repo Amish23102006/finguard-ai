@@ -25,7 +25,7 @@ jobs:
       - run: mypy
       - run: pytest --cov=finguard --cov-report=term-missing
       - run: python -m finguard.models.train
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         if: matrix.python-version == '3.11'
         with:
           name: metrics
